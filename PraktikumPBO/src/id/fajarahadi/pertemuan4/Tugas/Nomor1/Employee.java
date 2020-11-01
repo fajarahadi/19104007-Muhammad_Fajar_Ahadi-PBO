@@ -5,16 +5,16 @@ public abstract class Employee {
     protected String nip;
     protected Float upah;
     protected Float komisi;
-    protected Float total_penjualan;
-    protected Float total_proyek;
+    protected Float totalPenjualan;
+    protected Float totalProyek;
 
-    Employee(String nama, String nip, float upah, float komisi, float total_penjualan, float total_proyek) {
+    Employee(String nama, String nip, float upah, float komisi, float totalPenjualan, float totalProyek) {
         this.nama = nama;
         this.nip = nip;
         this.upah = upah;
         this.komisi = komisi;
-        this.total_penjualan = total_penjualan;
-        this.total_proyek = total_proyek;
+        this.totalPenjualan = totalPenjualan;
+        this.totalProyek = totalProyek;
     }
 
     public abstract void getGaji();
