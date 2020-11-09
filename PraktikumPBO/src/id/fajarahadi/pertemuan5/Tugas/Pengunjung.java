@@ -51,9 +51,7 @@ public class Pengunjung {
                 ulang = true;
             }
         } while (!ulang);
-
     }
-
     public static int intInputMethod() {
         Scanner scanner = new Scanner(System.in);
         int input = scanner.nextInt();
